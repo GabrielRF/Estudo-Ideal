@@ -8,35 +8,84 @@
     <meta name="DC.title" content="Estudo Ideal">
     <meta property="og:title" content="Estudo Ideal">
     <meta name="twitter:title" content="Estudo Ideal">
-    <meta property="og:image" content="images/uploads/og_image_estudoideal.jpeg">
-    <meta name="twitter:image" content="images/uploads/og_image_estudoideal.jpeg">
+    <meta property="og:image" content="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/uploads/og_image_estudoideal.jpeg">
+    <meta name="twitter:image" content="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/uploads/og_image_estudoideal.jpeg">
+    <meta property="og:url" content="http://estudoideal.com.br">
+    <meta property="fb:app_id" content="338576812933961">
+    <meta property="fb:admins" content="673428195">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Estudo Ideal">
     <meta name="DC.language" scheme="ISO639-1" content="en">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="vendor/jquery.min.js"></script>
-    <script type="text/javascript" src="vendor/noframework.waypoints.min.js"></script>
-    <script type="text/javascript" src="vendor/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/responsive-nav.js"></script>
-    <script type="text/javascript" src="vendor/swiper.jquery.js"></script>
-    <script type="text/javascript" src="js/form-submit.js"></script>
-    <script type="text/javascript" src="js/popup.js"></script>
-    <script type="text/javascript" src="js/reveal-animation.js"></script>
-    <script type="text/javascript" src="js/bg-videos.js"></script>
-    <script type="text/javascript" src="js/background-parallax.js"></script>
-    <script type="text/javascript" src="js/page-script.js"></script>
-    <script type="text/javascript" src="js/scroll-effects.js"></script>
+    <link rel="stylesheet" href="https://cdn.froont.com/_static/gen/style.e4d6cd2.css">
+    <link rel="stylesheet" href="https://cdn.froont.com/fabianogd/estudo-ideal/_dynamic-css/58e7d13efacf522483668469-1513085134.css">
+    <script>
+        window.preload = {
+            sentry_dsn: "https://c4cd00fcf9584d7a8b612311895d6ef0@sentry.froont.com/3"
+        }
+    </script>
+    <script src="/_static/vendor/bower/raven-js/dist/raven.min.js"></script>
+    <script type="text/javascript">
+        (function(window) {
+            if (typeof window.Raven !== 'undefined') {
+                var sentryDSN;
+
+                if (!sentryDSN && window.app && app.preload && app.preload.sentry_dsn) {
+                    sentryDSN = app.preload.sentry_dsn;
+                }
+
+                if (!sentryDSN && window.preload && window.preload.sentry_dsn) {
+                    sentryDSN = window.preload && window.preload.sentry_dsn;
+                }
+
+                if (sentryDSN) {
+                    try {
+                        Raven.config(sentryDSN, {
+                            collectWindowErrors: true
+                        }).install();
+
+                        if (window.app && window.app.preload && window.app.preload.userInfo) {
+                            Raven.setUser(app.preload.userInfo);
+                        }
+                    } catch (sentryLoadException) {
+                        console.error("Couldn't load Sentry :(");
+                        console.trace(sentryLoadException);
+                    }
+                } else {
+                    window.Raven = undefined;
+                }
+
+            }
+        })(window);
+    </script>
+    <script type="text/javascript" src="https://beta.froont.com/_static/gen/footer-beta.e4d6cd2.js"></script>
     <script type="text/javascript">
         var fonts = {
             "Montserrat": {
                 "family": "Montserrat",
                 "source": "google",
                 "subsets": [
-                    "latin"
+                    "latin",
+                    "latin-ext",
+                    "vietnamese"
                 ],
                 "variants": [
+                    "100",
+                    "100italic",
+                    "200",
+                    "200italic",
+                    "300",
+                    "300italic",
+                    "500",
+                    "500italic",
+                    "600",
+                    "600italic",
                     "700",
+                    "700italic",
+                    "800",
+                    "800italic",
+                    "900",
+                    "900italic",
+                    "italic",
                     "regular"
                 ]
             },
@@ -69,11 +118,38 @@
             }
         };
     </script>
-    <script type="text/javascript" src="vendor/webfontloader.js"></script>
-    <script type="text/javascript" src="js/fontloader.js"></script>
-    <meta name="msapplication-TileImage" content="images/uploads/favicon-ms-144.png">
-    <link rel="apple-touch-icon" href="images/uploads/favicon-apple-152.png">
-    <link rel="icon" type="image/png" href="images/uploads/favicon.png" />
+    <script type="text/javascript" src="https://beta.froont.com/_static/gen/js-fonts.e4d6cd2.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        var gaConf = {
+            'cookieDomain': 'auto',
+            'siteSpeedSampleRate': 50
+        };
+        var pvConf = {};
+
+
+        ga('create', 'UA-30459772-1', gaConf);
+        ga('require', 'linkid', 'linkid.js');
+        ga('require', 'displayfeatures');
+
+
+        ga('send', 'pageview'); //pvConf
+    </script>
+    <meta name="msapplication-TileImage" content="/fabianogd/hu9nwu/_static-uploads/images/uploads/favicon-ms-144.png?v=1">
+    <link rel="icon" type="image/png" size="192x192" href="/fabianogd/hu9nwu/_static-uploads/images/uploads/favicon-icon-192.png?v=1" />
+    <link rel="apple-touch-icon" href="/fabianogd/hu9nwu/_static-uploads/images/uploads/favicon-apple-152.png?v=1">
+    <link rel="icon" type="image/png" href="/fabianogd/hu9nwu/_static-uploads/images/uploads/favicon.png?v=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -82,7 +158,7 @@
     <div class="b-content hide-footer">
         <div id="nav_with_logo" class="fr-widget fr-container fr_nav_with_logo">
             <div id="navigation_dark_with_logo_4" class="fr-widget fr-navigation fr-navigation-active fr_navigation_dark_with_logo_4">
-                <a id="imagewidget" class="fr-widget fr-img fr_imagewidget fr-link" href="#container"> <img src="images/thumbnail/estudoideal_1.png_2251x1411.png" />
+                <a id="imagewidget" class="fr-widget fr-img fr_imagewidget fr-link" href="#container"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/estudoideal_1.png_2251x1411.png" />
                 </a><!--
              --><div id="mobile_toggle_5" class="fr-widget fr-navigation-toggle fr_mobile_toggle_5">
                     <div id="hamburger_icon_8" class="fr-widget fr-svg fr_hamburger_icon_8">
@@ -156,7 +232,7 @@
          --><div id="gry1_3_column_images_5" class="fr-widget fr-grid fr_gry1_3_column_images_5">
                 <div id="gry1_image_one_6" class="fr-widget fr-container fr_gry1_image_one_6">
                     <div id="container_40" class="fr-widget fr-container fr_container_40">
-                        <div id="imagewidget_3" class="fr-widget fr-img fr_icon_dark_center fr_imagewidget_3 fr-widget-hover-opacity-60"> <img src="images/thumbnail/concentracao.png_756x756.png" />
+                        <div id="imagewidget_3" class="fr-widget fr-img fr_icon_dark_center fr_imagewidget_3 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/concentracao.png_756x756.png" />
                         </div><!--
                      --><div id="text_212" class="fr-widget fr-text fr-wf fr-richtext fr_text_dark_center fr_text_212">
                             <div class="fr-text">
@@ -168,7 +244,7 @@
                 </div><!--
              --><div id="gry1_image_one_5" class="fr-widget fr-container fr_gry1_image_one_5">
                     <div id="container_39" class="fr-widget fr-container fr_container_39">
-                        <div id="imagewidget_2" class="fr-widget fr-img fr_icon_dark_center fr_imagewidget_2 fr-widget-hover-opacity-60"> <img src="images/thumbnail/conforto_1.png_756x756.png" />
+                        <div id="imagewidget_2" class="fr-widget fr-img fr_icon_dark_center fr_imagewidget_2 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/conforto_1.png_756x756.png" />
                         </div><!--
                      --><div id="text_211" class="fr-widget fr-text fr-wf fr-richtext fr_text_dark_center fr_text_211">
                             <div class="fr-text">
@@ -192,7 +268,7 @@
          --><div id="gry1_3_column_images_6" class="fr-widget fr-grid fr_gry1_3_column_images_6">
                 <div id="gry1_image_one_7" class="fr-widget fr-container fr_gry1_image_one_7">
                     <div id="container_41" class="fr-widget fr-container fr_container_41">
-                        <div id="image_67" class="fr-widget fr-img fr_icon_dark_center fr_image_67 fr-widget-hover-opacity-60"> <img src="images/thumbnail/cadeira_1.png_756x756.png" />
+                        <div id="image_67" class="fr-widget fr-img fr_icon_dark_center fr_image_67 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/cadeira_1.png_756x756.png" />
                         </div><!--
                      --><div id="text_214" class="fr-widget fr-text fr-wf fr-richtext fr_text_214 fr_estrutura_1">
                             <div class="fr-text">
@@ -204,7 +280,7 @@
                 </div><!--
              --><div id="gry1_image_one_8" class="fr-widget fr-container fr_gry1_image_one_8">
                     <div id="container_42" class="fr-widget fr-container fr_container_42">
-                        <div id="image_68" class="fr-widget fr-img fr_icon_dark_center fr_image_68 fr-widget-hover-opacity-60"> <img src="images/thumbnail/espaco_2.png_757x756.png" />
+                        <div id="image_68" class="fr-widget fr-img fr_icon_dark_center fr_image_68 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/espaco_2.png_757x756.png" />
                         </div><!--
                      --><div id="text_215" class="fr-widget fr-text fr-wf fr-richtext fr_text_215 fr_estrutura_1">
                             <div class="fr-text">
@@ -216,7 +292,7 @@
                 </div><!--
              --><div id="gry1_image_one_9" class="fr-widget fr-container fr_gry1_image_one_9">
                     <div id="container_43" class="fr-widget fr-container fr_container_43">
-                        <div id="image_69" class="fr-widget fr-img fr_icon_dark_center fr_image_69 fr-widget-hover-opacity-60"> <img src="images/thumbnail/armario_2.png_757x756.png" />
+                        <div id="image_69" class="fr-widget fr-img fr_icon_dark_center fr_image_69 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/armario_2.png_757x756.png" />
                         </div><!--
                      --><div id="text_216" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_216">
                             <div class="fr-text">
@@ -228,7 +304,7 @@
                 </div><!--
              --><div id="gry1_image_one_10" class="fr-widget fr-container fr_gry1_image_one_10">
                     <div id="container_44" class="fr-widget fr-container fr_container_44">
-                        <div id="image_70" class="fr-widget fr-img fr_icon_dark_center fr_image_70 fr-widget-hover-opacity-60"> <img src="images/thumbnail/wifi.png_757x756.png" />
+                        <div id="image_70" class="fr-widget fr-img fr_icon_dark_center fr_image_70 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/wifi.png_757x756.png" />
                         </div><!--
                      --><div id="text_217" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_217">
                             <div class="fr-text">
@@ -240,7 +316,7 @@
                 </div><!--
              --><div id="gry1_image_one_11" class="fr-widget fr-container fr_gry1_image_one_11">
                     <div id="container_45" class="fr-widget fr-container fr_container_45">
-                        <div id="image_71" class="fr-widget fr-img fr_icon_dark_center fr_image_71 fr-widget-hover-opacity-60"> <img src="images/thumbnail/climatizacao.png_378x378.png" />
+                        <div id="image_71" class="fr-widget fr-img fr_icon_dark_center fr_image_71 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/climatizacao.png_378x378.png" />
                         </div><!--
                      --><div id="text_218" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_218">
                             <div class="fr-text">
@@ -252,7 +328,7 @@
                 </div><!--
              --><div id="gry1_image_one_12" class="fr-widget fr-container fr_gry1_image_one_12">
                     <div id="container_47" class="fr-widget fr-container fr_container_47">
-                        <div id="image_72" class="fr-widget fr-img fr_icon_dark_center fr_image_72 fr-widget-hover-opacity-60"> <img src="images/thumbnail/copa.png_378x378.png" />
+                        <div id="image_72" class="fr-widget fr-img fr_icon_dark_center fr_image_72 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/copa.png_378x378.png" />
                         </div><!--
                      --><div id="text_219" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_219">
                             <div class="fr-text">
@@ -264,7 +340,7 @@
                 </div><!--
              --><div id="gry1_image_one_13" class="fr-widget fr-container fr_gry1_image_one_13">
                     <div id="container_48" class="fr-widget fr-container fr_container_48">
-                        <div id="image_73" class="fr-widget fr-img fr_icon_dark_center fr_image_73 fr-widget-hover-opacity-60"> <img src="images/thumbnail/icones-site.png_131x131.png" />
+                        <div id="image_73" class="fr-widget fr-img fr_icon_dark_center fr_image_73 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/icones-site.png_131x131.png" />
                         </div><!--
                      --><div id="text_220" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_220">
                             <div class="fr-text">
@@ -276,7 +352,7 @@
                 </div><!--
              --><div id="gry1_image_one_14" class="fr-widget fr-container fr_gry1_image_one_14">
                     <div id="container_49" class="fr-widget fr-container fr_container_49">
-                        <div id="image_74" class="fr-widget fr-img fr_icon_dark_center fr_image_74 fr-widget-hover-opacity-60"> <img src="images/thumbnail/24horas.png_463x463.png" />
+                        <div id="image_74" class="fr-widget fr-img fr_icon_dark_center fr_image_74 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/24horas.png_463x463.png" />
                         </div><!--
                      --><div id="text_221" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_221">
                             <div class="fr-text">
@@ -288,7 +364,7 @@
                 </div><!--
              --><div id="gry1_image_one_15" class="fr-widget fr-container fr_gry1_image_one_15">
                     <div id="container_50" class="fr-widget fr-container fr_container_50">
-                        <div id="image_75" class="fr-widget fr-img fr_icon_dark_center fr_image_75 fr-widget-hover-opacity-60"> <img src="images/thumbnail/iluminacao.png_464x463.png" />
+                        <div id="image_75" class="fr-widget fr-img fr_icon_dark_center fr_image_75 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/iluminacao.png_464x463.png" />
                         </div><!--
                      --><div id="text_222" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_222">
                             <div class="fr-text">
@@ -300,7 +376,7 @@
                 </div><!--
              --><div id="gry1_image_one_16" class="fr-widget fr-container fr_gry1_image_one_16">
                     <div id="container_51" class="fr-widget fr-container fr_container_51">
-                        <div id="image_76" class="fr-widget fr-img fr_icon_dark_center fr_image_76 fr-widget-hover-opacity-60"> <img src="images/thumbnail/acesso.png_463x463.png" />
+                        <div id="image_76" class="fr-widget fr-img fr_icon_dark_center fr_image_76 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/acesso.png_463x463.png" />
                         </div><!--
                      --><div id="text_223" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_223">
                             <div class="fr-text">
@@ -312,7 +388,7 @@
                 </div><!--
              --><div id="gry1_image_one_18" class="fr-widget fr-container fr_gry1_image_one_18">
                     <div id="container_53" class="fr-widget fr-container fr_container_53">
-                        <div id="image_78" class="fr-widget fr-img fr_icon_dark_center fr_image_78 fr-widget-hover-opacity-60"> <img src="images/thumbnail/bus.png_464x463.png" />
+                        <div id="image_78" class="fr-widget fr-img fr_icon_dark_center fr_image_78 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/bus.png_464x463.png" />
                         </div><!--
                      --><div id="text_225" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_225">
                             <div class="fr-text">
@@ -324,7 +400,7 @@
                 </div><!--
              --><div id="gry1_image_one_17" class="fr-widget fr-container fr_gry1_image_one_17">
                     <div id="container_52" class="fr-widget fr-container fr_container_52">
-                        <div id="image_77" class="fr-widget fr-img fr_icon_dark_center fr_image_77 fr-widget-hover-opacity-60"> <img src="images/thumbnail/camera.png_463x463.png" />
+                        <div id="image_77" class="fr-widget fr-img fr_icon_dark_center fr_image_77 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/camera.png_463x463.png" />
                         </div><!--
                      --><div id="text_224" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_224">
                             <div class="fr-text">
@@ -336,7 +412,7 @@
                 </div><!--
              --><div id="gry1_image_one_19" class="fr-widget fr-container fr_gry1_image_one_19">
                     <div id="container_54" class="fr-widget fr-container fr_container_54">
-                        <div id="image_79" class="fr-widget fr-img fr_icon_dark_center fr_image_79 fr-widget-hover-opacity-60"> <img src="images/thumbnail/guarda.png_463x464.png" />
+                        <div id="image_79" class="fr-widget fr-img fr_icon_dark_center fr_image_79 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/guarda.png_463x464.png" />
                         </div><!--
                      --><div id="text_226" class="fr-widget fr-text fr-wf fr-richtext fr_estrutura_1 fr_text_226">
                             <div class="fr-text">
@@ -382,7 +458,7 @@
          --><div id="gry1_3_column_images_9" class="fr-widget fr-grid fr_gry1_3_column_images_9">
                 <div id="gry1_image_one_20" class="fr-widget fr-container fr_gry1_image_one_20">
                     <div id="container_37" class="fr-widget fr-container fr_container_37">
-                        <div id="imagewidget_4" class="fr-widget fr-img fr_imagewidget_4 fr-widget-hover-opacity-60"> <img src="images/thumbnail/plano-01.png_591x591.png" />
+                        <div id="imagewidget_4" class="fr-widget fr-img fr_imagewidget_4 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/plano-01.png_591x591.png" />
                         </div>
                     </div><!--
                  --><div id="text_229" class="fr-widget fr-text fr-wf fr-richtext fr_text_229 fr_preco">
@@ -398,7 +474,7 @@
                 </div><!--
              --><div id="gry1_image_one_21" class="fr-widget fr-container fr_gry1_image_one_21">
                     <div id="container_55" class="fr-widget fr-container fr_container_55">
-                        <div id="image_82" class="fr-widget fr-img fr_image_82 fr-widget-hover-opacity-60"> <img src="images/thumbnail/plano-02.png_592x591.png" />
+                        <div id="image_82" class="fr-widget fr-img fr_image_82 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/plano-02.png_592x591.png" />
                         </div>
                     </div><!--
                  --><div id="text_232" class="fr-widget fr-text fr-wf fr-richtext fr_text_232 fr_preco">
@@ -414,7 +490,7 @@
                 </div><!--
              --><div id="gry1_image_one_22" class="fr-widget fr-container fr_gry1_image_one_22">
                     <div id="container_56" class="fr-widget fr-container fr_container_56">
-                        <div id="image_83" class="fr-widget fr-img fr_image_83 fr-widget-hover-opacity-60"> <img src="images/thumbnail/plano-03.png_592x591.png" />
+                        <div id="image_83" class="fr-widget fr-img fr_image_83 fr-widget-hover-opacity-60"> <img src="https://cdn.froont.com/fabianogd/hu9nwu/_static-uploads/images/thumbnail/plano-03.png_592x591.png" />
                         </div>
                     </div><!--
                  --><div id="text_235" class="fr-widget fr-text fr-wf fr-richtext fr_text_235 fr_preco">
@@ -511,7 +587,7 @@
                         <p>Copyright © 2017 Espaço de Estudos Ideal. Todos os direitos reservados.</p>
                     </div>
                 </div><!--
-             --><a id="image_84" class="fr-widget fr-img fr_image_84 fr-widget-hover-scale-up fr-link" href="http://blyk.com.br" target="_blank"> <img src="images/thumbnail/blyk.png_327x52.png" />
+             --><a id="image_84" class="fr-widget fr-img fr_image_84 fr-widget-hover-scale-up fr-link" href="http://blyk.com.br" target="_blank"> <img src="https://cdn.froont.com/fabianogd/47rixn/_static-uploads/images/thumbnail/blyk.png_327x52.png" />
                 </a>
             </div>
         </div><!--

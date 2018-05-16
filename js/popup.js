@@ -139,9 +139,9 @@ window.FRPopup = (function (window, $) {
 
       if (!items || isGallery && !items.length) { return; }
 
-      var froontEmbedContent = $('.froont-embed-content .b-content');
-      if (froontEmbedContent.length) {
-        $prependToEl = froontEmbedContent.first();
+      var froontContent = $('.b-content');
+      if (froontContent.length) {
+        $prependToEl = froontContent.first();
       }
 
       self.popup.open({

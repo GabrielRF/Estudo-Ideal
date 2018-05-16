@@ -26,7 +26,7 @@ window.BackgroundParallax = (function (window, $) {
     BackgroundParallax.prototype = {
 
         defaults: {
-            mobile: true,
+            mobile: false,
             selector: '.fr-background-parallax-active',
             speed: 1,
             boost: 0

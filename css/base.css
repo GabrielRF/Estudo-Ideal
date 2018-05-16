@@ -4570,7 +4570,7 @@ a {
   position: relative !important;
 }
 
-body.is-mobile .fr-widget {
+.b-content.is-mobile .fr-widget {
   background-attachment: scroll !important;
 }
 
@@ -4622,6 +4622,7 @@ body.is-mobile .fr-widget {
   cursor: zoom-in;
 }
 
+.fr-grid-gallery-item,
 .fr-gallery-type-lightbox {
   cursor: zoom-in;
 }
@@ -4741,10 +4742,16 @@ body.is-mobile .fr-widget {
   position: relative;
 }
 
-.fr-video-inner iframe {
+.fr-video-inner iframe, .fr-video-inner video {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+}
+
+.fr-video-inner video {
+  background-color: #000;
 }
 
 .fr-video-inner p {

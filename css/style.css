@@ -1305,7 +1305,7 @@ a:hover {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px
+  min-height: 500px
 }
 
 .fr_gry1_image_one_12 {
@@ -2281,6 +2281,10 @@ a:hover {
     clear: none;
     max-width: inherit
   }
+  .fr_container_46 {
+    background-size: cover;
+    background-attachment: scroll
+  }
   .fr_gry2_column_images.fr-grid>.fr-widget {
     float: left
   }
@@ -2384,6 +2388,10 @@ a:hover {
     clear: none;
     max-width: inherit
   }
+  .fr_container_46 {
+    background-size: contain;
+    min-height: 280px
+  }
   .fr_gry2_column_images.fr-grid>.fr-widget {
     float: left
   }
@@ -2438,22 +2446,13 @@ a:hover {
   .fr_grid_2.fr-grid>.fr-widget {
     float: left
   }
-  .fr_grid_2.fr-grid>.fr-widget:nth-child(2n+1) {
+  .fr_grid_2.fr-grid>.fr-widget:nth-child(1n+1) {
     margin-top: .6em;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    width: calc(100% / 2);
+    width: calc(100% / 1);
     clear: left;
-    max-width: inherit
-  }
-  .fr_grid_2.fr-grid>.fr-widget:nth-child(2n+2) {
-    margin-top: .6em;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    width: calc(100% / 2);
-    clear: none;
     max-width: inherit
   }
   .fr_grid_3.fr-grid>.fr-widget {
@@ -2496,7 +2495,7 @@ a:hover {
     width: 100%
   }
   .fr_hero_bg_image_text_left_aligned {
-    min-height: 700px
+    min-height: 600px
   }
   .fr_hd3_content {
     width: 90%
@@ -2505,7 +2504,7 @@ a:hover {
     width: 100%
   }
   .fr_container {
-    min-height: 700px
+    min-height: 600px
   }
   .fr_4_columns__cards_with_icons {
     background-color: #ececec
@@ -4034,7 +4033,7 @@ a:hover {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px
+  min-height: 500px
 }
 
 .fr_gry1_image_one_12 {
@@ -5010,6 +5009,10 @@ a:hover {
     clear: none;
     max-width: inherit
   }
+  .fr_container_46 {
+    background-size: cover;
+    background-attachment: scroll
+  }
   .fr_gry2_column_images.fr-grid>.fr-widget {
     float: left
   }
@@ -5113,6 +5116,10 @@ a:hover {
     clear: none;
     max-width: inherit
   }
+  .fr_container_46 {
+    background-size: contain;
+    min-height: 280px
+  }
   .fr_gry2_column_images.fr-grid>.fr-widget {
     float: left
   }
@@ -5167,22 +5174,13 @@ a:hover {
   .fr_grid_2.fr-grid>.fr-widget {
     float: left
   }
-  .fr_grid_2.fr-grid>.fr-widget:nth-child(2n+1) {
+  .fr_grid_2.fr-grid>.fr-widget:nth-child(1n+1) {
     margin-top: .6em;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    width: calc(100% / 2);
+    width: calc(100% / 1);
     clear: left;
-    max-width: inherit
-  }
-  .fr_grid_2.fr-grid>.fr-widget:nth-child(2n+2) {
-    margin-top: .6em;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    width: calc(100% / 2);
-    clear: none;
     max-width: inherit
   }
   .fr_grid_3.fr-grid>.fr-widget {
@@ -5225,7 +5223,7 @@ a:hover {
     width: 100%
   }
   .fr_hero_bg_image_text_left_aligned {
-    min-height: 700px
+    min-height: 600px
   }
   .fr_hd3_content {
     width: 90%
@@ -5234,7 +5232,7 @@ a:hover {
     width: 100%
   }
   .fr_container {
-    min-height: 700px
+    min-height: 600px
   }
   .fr_4_columns__cards_with_icons {
     background-color: #ececec

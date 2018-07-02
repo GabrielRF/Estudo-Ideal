@@ -2133,6 +2133,90 @@ a:hover {
   max-width: 100px
 }
 
+.fr_gry2_image_eight_4 {
+  background-image: url(../images/thumbnail/5a9c7512-fef0-4f35-b852-30fbd0ce40fd.jpg_1280x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_5 {
+  background-image: url(../images/thumbnail/4b05429f-f478-4344-a887-ea07a59dd20e.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_6 {
+  background-image: url(../images/thumbnail/5ec4c060-c05c-4056-9a79-4dd64c80a646.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_7 {
+  background-image: url(../images/thumbnail/6c960b4e-5481-4a85-ab7f-d46668312513.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_8 {
+  background-image: url(../images/thumbnail/6ebfa09b-334b-4a31-8e12-965c2515c7fe.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_9 {
+  background-image: url(../images/thumbnail/14e99317-2b5b-48f2-ae73-11d99781933f.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_10 {
+  background-image: url(../images/thumbnail/77c58445-deef-4c01-9283-c3399c1ec55d.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_11 {
+  background-image: url(../images/thumbnail/a83de84b-0ff1-42b7-948c-953099fb9662.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_12 {
+  background-image: url(../images/thumbnail/a2935001-467f-4206-a613-74589ec3fd84.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_13 {
+  background-image: url(../images/thumbnail/ea9d6df9-16dd-4f51-9bc9-1d80592854b5.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_14 {
+  background-image: url(../images/thumbnail/f3b917b4-9558-4000-b48b-00a10f4e0d5d.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_15 {
+  background-image: url(../images/thumbnail/fc9b0694-f735-4f34-99cf-4afc1c61a0f1.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
 .fr_hamburger_icon_8 .fr-svg-inner {
   padding-bottom: 84.15300546448087%;
   position: relative
@@ -2335,7 +2419,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
   .fr_text_large_dark_center {
     font-size: 1.3em
   }
@@ -4861,6 +4945,90 @@ a:hover {
   max-width: 100px
 }
 
+.fr_gry2_image_eight_4 {
+  background-image: url(../images/thumbnail/5a9c7512-fef0-4f35-b852-30fbd0ce40fd.jpg_1280x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_5 {
+  background-image: url(../images/thumbnail/4b05429f-f478-4344-a887-ea07a59dd20e.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_6 {
+  background-image: url(../images/thumbnail/5ec4c060-c05c-4056-9a79-4dd64c80a646.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_7 {
+  background-image: url(../images/thumbnail/6c960b4e-5481-4a85-ab7f-d46668312513.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_8 {
+  background-image: url(../images/thumbnail/6ebfa09b-334b-4a31-8e12-965c2515c7fe.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_9 {
+  background-image: url(../images/thumbnail/14e99317-2b5b-48f2-ae73-11d99781933f.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_10 {
+  background-image: url(../images/thumbnail/77c58445-deef-4c01-9283-c3399c1ec55d.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_11 {
+  background-image: url(../images/thumbnail/a83de84b-0ff1-42b7-948c-953099fb9662.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_12 {
+  background-image: url(../images/thumbnail/a2935001-467f-4206-a613-74589ec3fd84.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_13 {
+  background-image: url(../images/thumbnail/ea9d6df9-16dd-4f51-9bc9-1d80592854b5.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_14 {
+  background-image: url(../images/thumbnail/f3b917b4-9558-4000-b48b-00a10f4e0d5d.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
+.fr_gry2_image_eight_15 {
+  background-image: url(../images/thumbnail/fc9b0694-f735-4f34-99cf-4afc1c61a0f1.jpg_960x1280.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 12rem
+}
+
 .fr_hamburger_icon_8 .fr-svg-inner {
   padding-bottom: 84.15300546448087%;
   position: relative
@@ -5063,7 +5231,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
   .fr_text_large_dark_center {
     font-size: 1.3em
   }
